@@ -22,7 +22,7 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: rgb(255, 255, 255);
 }
 
 .App-link {
@@ -36,4 +36,41 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+header {
+  display: flex;
+  border-bottom: 1px solid black;
+  padding-left: 20px;
+}
+
+.navimenu ul {
+  list-style-type: none;
+  padding-left: 20;
+}
+
+main {
+  padding-left: 20px;
+}
+
+.navimenu ul li {
+  display: inline;
+  margin: 5px;
+}
+
+.navfooter ul {
+  list-style-type: none;
+}
+.navfooter {
+  display: flex;
+}
+
+footer {
+  display: flex;
+  padding-left: 20px;
+}
+
+.navfooter ul li:first-child {
+  color: red;
+  font-weight: bold;
 }

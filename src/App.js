@@ -1,8 +1,15 @@
-import logo from "./logo.svg";
 import "./App.css";
-
+import { StrictMode } from "react";
+import Header from "./header";
+import Main from "./main";
+import Footer from "./footer";
 function App() {
-  return <div className="App">3 fgchanges</div>;
+  return (
+    <>
+      <Header />
+      <Main />
+      <Footer />
+    </>
+  );
 }
-
 export default App;
