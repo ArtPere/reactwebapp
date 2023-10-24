@@ -2,72 +2,72 @@ import lemon from "./lemon.svg";
 
 function Footer() {
   return (
-    <>
-      <footer>
-        <img className="logotop" src={lemon} alt="gfde"></img>
-        <nav className="navfooter">
+    <footer className="footerHead">
+      <nav className="footerWrap">
+        <img className="logobottomn" src={lemon} alt="gfde"></img>
+        <div className="navfooter">
           <ul>
             <li>
-              <a href="">
-                Doormat <br /> Navigatin
+              <a href="https://github.com">
+                <p className="navList">
+                  Doormat <br /> Navigation
+                </p>
               </a>
-              <br />
-              <br />
             </li>
             <li>
-              <a href="">Home</a>
+              <a href="https://github.com">Home</a>
             </li>
             <li>
-              <a href="">About</a>
+              <a href="https://github.com">About</a>
             </li>
             <li>
-              <a href="">Menu</a>
+              <a href="https://github.com">Menu</a>
             </li>
             <li>
-              <a href="">Reservation</a>
+              <a href="https://github.com">Reservation</a>
             </li>
+
             <li>
-              <a href="">Online order</a>
-            </li>
-            <li>
-              <a href="">Login</a>
+              <a href="https://github.com">Login</a>
             </li>
           </ul>
           <ul>
             <li>
-              <a href="">Contact</a>
+              <a href="https://github.com">
+                <p className="navList">Contact</p>
+              </a>
             </li>
-            <br />
-            <br />
+
             <li>
-              <a href="">Adress</a>
-            </li>
-            <li>
-              <a href="">Phone number</a>
+              <a href="https://github.com">Adress</a>
             </li>
             <li>
-              <a href="">email</a>
+              <a href="https://github.com">Phone number</a>
+            </li>
+            <li>
+              <a href="https://github.com">email</a>
             </li>
           </ul>
-          <ul>
+          <ul className="cool">
             <li>
-              <a href="">Social Media Links</a>
+              <a href="https://github.com">
+                <p className="navList"> Social Media Links</p>
+              </a>
             </li>
-            <br />
-            <br />
+
             <li>
-              <a href="">X</a>
-            </li>
-            <li>
-              <a href="">Facebook</a>
+              <a href="https://github.com">X</a>
             </li>
             <li>
-              <a href="">Instagram</a>
+              <a href="https://github.com">Facebook</a>
+            </li>
+            <li>
+              <a href="https://github.com">Instagram</a>
             </li>
           </ul>
-        </nav>
-      </footer>
-    </>
+        </div>
+      </nav>
+    </footer>
   );
 }
 
