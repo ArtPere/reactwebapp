@@ -1,3 +1,4 @@
+import { Route, Routes, Link } from "react-router-dom";
 import "./App.scss";
 import React, { StrictMode } from "react";
 import Header from "./header";
@@ -8,15 +9,14 @@ import lemon from "./lemon.jpg";
 import pie from "./pie.svg";
 import Section from "./section";
 import About from "./about";
-import { Route, Routes, Link } from "react-router-dom";
-import { Notfound } from "./Notfound";
-import { Homes } from "./Homes";
-function App() {
+
+const Notfound = () => {
   return (
-    <Routes>
-      <Route path="/about" element={<Notfound />} />
-      <Route path="/" element={<Homes />} />
-    </Routes>
+    <>
+      <Header />
+      <About />
+    </>
   );
-}
-export default App;
+};
+
+export { Notfound };
