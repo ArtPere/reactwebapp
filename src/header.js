@@ -21,13 +21,13 @@ function Header() {
               <Link to="/about">ABOUT</Link>
             </li>
             <li>
-              <Link to="/menu">MENU</Link>
+              <Link to="/">MENU</Link>
             </li>
             <li>
               <Link to="/booking">BOOKING</Link>
             </li>
             <li>
-              <Link to="/login">LOGIN</Link>
+              <Link to="/">LOGIN</Link>
             </li>
           </ul>
         </nav>

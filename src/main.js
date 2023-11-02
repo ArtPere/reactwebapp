@@ -1,5 +1,6 @@
 import sushi from "./sushi.jpg";
 import dessert from "./dessert.jpg";
+import { Link } from "react-router-dom";
 
 function Main() {
   return (
@@ -18,9 +19,12 @@ function Main() {
               The union offers great healthy snack and meal options, including
               fruit smoothies from Jamba.
             </p>
-            <button className="c-button">
-              <b>Reserve a Table</b>
-            </button>
+            <Link to="/booking">
+              {" "}
+              <button className="c-button">
+                <b>Reserve a Table</b>
+              </button>
+            </Link>
           </article>
           <img className="sushi" src={sushi} alt="sushi"></img>
         </section>
