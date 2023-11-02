@@ -9,7 +9,7 @@ import lemon from "./lemon.jpg";
 import pie from "./pie.svg";
 import Section from "./section";
 import About from "./about";
-import { Notfound } from "./Notfound";
+
 const Homes = () => {
   return (
     <>

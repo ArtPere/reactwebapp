@@ -1,21 +1,16 @@
 import "./App.scss";
 import React, { StrictMode } from "react";
-import Header from "./header";
-import Main from "./main";
-import Footer from "./footer";
-import salad from "./salad.jpg";
-import lemon from "./lemon.jpg";
-import pie from "./pie.svg";
-import Section from "./section";
-import About from "./about";
+
 import { Route, Routes, Link } from "react-router-dom";
-import { Notfound } from "./Notfound";
+import { AboutM } from "./aboutM";
 import { Homes } from "./Homes";
+import { BookingForm } from "./bookingForm";
 function App() {
   return (
     <Routes>
-      <Route path="/about" element={<Notfound />} />
+      <Route path="/about" element={<AboutM />} />
       <Route path="/" element={<Homes />} />
+      <Route path="/booking" element={<BookingForm />} />
     </Routes>
   );
 }

@@ -313,7 +313,7 @@ main h3 {
   background-color: #ff03c0;
 }
 .aboutChef {
-  height: 100vh;
+  height: 80vh;
   background: rgba(157, 157, 130, 1);
   box-sizing: border-box;
 }
@@ -431,4 +431,25 @@ main h3 {
   font-size: 16px;
   color: black;
   text-decoration: #f9f9f9;
+}
+.Field input,
+select {
+  width: 99%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.Field > label {
+  width: 99%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-weight: 700;
+  font-size: 20px;
 }
